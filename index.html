@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MALIK state</title> 
+    <link rel="stylesheet" href="STYLE.CSS">
+    <script src="https://kit.fontawesome.com/1901504443.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>  
+</head>
+<body>
+<div id="header">
+     <div class="container">
+        <nav>
+        <h2 class="logo"><span>Ma</span>lik.</h2>
+          <ul id="sidemenu">
+            <li><a href="#header">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#contact">contacts</a></li>
+            <i class="fa-solid fa-circle-xmark"onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav> 
+        <div class="header-text">
+          <P><span>UI/UX Designer</span></P>
+          <h1>What's good<br><span class="multiple-text">Moth</span>erfuckers!</h1>
+         </div> 
+     </div>
+</div> 
+<!-- ----------- --about---------- -->  
+<div id="about">
+    <div class="contianer">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/croped.png">
+            </div>
+            <div class="about-col-2"> 
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Alex kisaka, born and raise in kenya</p>
+                
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links " onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                   <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                   </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                   <ul>
+                    <li><span>2021-current</span><br>Designing Web/App interfaces</li>
+                    <li><span>2020-2021</span><br>Designing Web/App interfaces</li>
+                    <li><span>2019-2020</span><br>Designing Web/App interfaces</li>
+                   </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                   <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                   </ul>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+<!------------services---------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="service-list">
+             <div>
+                <i class="fas fa-code"></i>
+                <h2>web design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quis, dolore asperiores aspernatur illum, quaerat itaque ipsa quae voluptatem totam fuga explicabo, voluptatibus quam dolores consequatur? Modi temporibus iure similique?</p>
+                <a href="#">Learn more</a>
+             </div>
+             <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quis, dolore asperiores aspernatur illum, quaerat itaque ipsa quae voluptatem totam fuga explicabo, voluptatibus quam dolores consequatur? Modi temporibus iure similique?</p>
+                <a href="#">Learn more</a>
+             </div>
+             <div>
+                <i class="fas fa-app-store"></i>
+                <h2>Graphic Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quis, dolore asperiores aspernatur illum, quaerat itaque ipsa quae voluptatem totam fuga explicabo, voluptatibus quam dolores consequatur? Modi temporibus iure similique?</p>
+                <a href="#">Learn more</a>
+             </div>
+        </div>
+    </div>
+</div>
+<!-------------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/gra 3.jpg">
+                <div class="layer">
+                    <h3>Graphic/Interior Design</h3>
+                    <p>connects</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work"> 
+                <img src="images/eyes.jpg">
+                <div class="layer">
+                    <h3>social media app</h3>
+                    <p>connects</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/abdi.png">
+                <div class="layer">
+                    <h3>All social followers</h3>
+                    <p>connects</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>  
+            </div>
+            <div class="work">
+                <img src="images/abdi.png">
+                <div class="layer">
+                    <h3>social media app</h3>
+                    <p>connects</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>  
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<!-------------contacts------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me!</h1>
+                <p><i class="fas fa-paper-plane"></i>alexkisaka20@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>0768163516</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/_.alekiii"><i class="fab fa-instagram"></i></a>
+                    <a href="htttps://wa.me/+254768163516"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://twitter.com/Aleki61954056"><i class="fab fa-x-twitter"></i></a>
+                    <a href="mailto:alexkisaka20@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Messages"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>   
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy Alex kisaka.made with<i class="fas fa-heart"></i> by real G motherfucker Brick by Brick.</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+   
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+    
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwvrQskakiDvl_Zg0QijKS_IuKpE9fldTywmVKDJnB3yuuoT2oAE2WU6WkKLXLxYD3z/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="we mzee"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
+
+
